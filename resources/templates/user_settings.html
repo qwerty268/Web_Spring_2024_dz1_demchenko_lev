@@ -34,26 +34,46 @@
 
 <main class="container mt-4">
     <div class="d-flex flex-row align-items-center gap-4">
-        <h3>New Question</h3>
+        <h3>Settings: Dr. Pepper</h3>
     </div>
 
     <div class="row">
 
         <div class="col-md-8 col-sm-12">
-            <form class="w-75" action="/" method="post">
-                <div class="mb-3">
-                    <label for="titleInput" class="form-label">Title</label>
-                    <input type="text" class="form-control" id="titleInput">
+            <form>
+                <div class="form-group row mb-3">
+                    <label for="staticLogin" class="col-sm-2 col-form-label">Login</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="staticLogin"
+                               value="dr_pepper">
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="textInput" class="form-label">Text</label>
-                    <input type="text" class="form-control" id="textInput">
+                <div class="form-group row mb-3">
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="staticEmail"
+                               value="email@example.com">
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="tagsInput" class="form-label">Tags</label>
-                    <input type="text" class="form-control" id="tagsInput">
+                <div class="form-group row mb-3">
+                    <label for="staticNick" class="col-sm-2 col-form-label">NickName</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="staticNick"
+                               value="Dr. Pepper">
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-primary">ASK!</button>
+                <div class="form-group row mb-3">
+                    <label for="inputAvatar" class="col-sm-2 col-form-label">Input avatar</label>
+                    <div class="col-sm-10">
+                        <div class="block border w-25 ratio ratio-1x1 mb-3">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div>
+                             <input class="form-control" type="file" id="inputAvatar">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
             </form>
         </div>
 
