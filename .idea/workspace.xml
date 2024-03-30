@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73a7fe3-4cd8-4ff1-a9d7-f135af2459d6" name="Changes" comment="feat: adding user settings page">
+    <list default="true" id="c73a7fe3-4cd8-4ff1-a9d7-f135af2459d6" name="Changes" comment="feat: log in page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/user_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/user_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711825083456</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: log in page">
+      <created>1711826733230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711826733230</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +107,7 @@
     <MESSAGE value="feat: base page" />
     <MESSAGE value="feat: adding question page" />
     <MESSAGE value="feat: adding user settings page" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adding user settings page" />
+    <MESSAGE value="feat: log in page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: log in page" />
   </component>
 </project>
